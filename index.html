@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="maincontainer">
+    <div class="imagesection">
+        <div class="odinimg">
+        <img id="odinimg" src="png-others/odin-lined.png" alt="odin logo">
+        <p>ODIN</p>
+         </div>
+         <img id="mainimg" src="png-others/lexi-laginess-amTPFVMfIt0-unsplash.jpg" alt="building surrounded by greenery">
+         <div class="credits">
+         <p id="credits">Photo by <a href="https://unsplash.com/@lexilaginess">Lexi Laginess</a> on <a href="https://unsplash.com">Unsplash</a> </p>
+        </div>
+        </div>
+    <div class="secondcontainer">
+    <div class="section1">
+        <div class="section1content">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+        <div id="know">
+        <p>You <em>know</em> you want to.</p>
+        </div>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="section2content">
+        <p id="calltoaction">Let's do this!</p>
+        <form action="results.html" method="get" id="myform" >  
+        <div class="form-group">
+            <label for="name">First Name</label>
+            <input type="text" id="name" name="name" placeholder="Spongebob" required>
+        </div>
+        <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Squarepants" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Squarepants@gmail.com" required>
+        </div>
+        <div class="form-group">
+            <label for="pnumber">Phone Number</label>
+            <input type="tel" id="pnumber" name="pnumber" placeholder="123-456-7890" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Password (e.g., ImReady123!)" required>
+        </div>
+        <div class="form-group">
+            <label for="cpassword">Confirm Password</label>
+            <input type="password" id="cpassword" name="cpassword" placeholder="Password (e.g., ImReady123!)" required>
+        </div>
+
+        </div>
+        </form> 
+    </div>
+    <div class="section3">
+        <div class="section3content">
+        <button type="submit" form="myform" id="createaccount">Create Account</button>
+        <p>Already have an account? <a href="">Log in</a>
+    </div>
+    </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
